@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    database: "{{ target.name }}_raw"
+    schema: public
+    tables:
+      - name: bank_transactions
+      - name: internal_ledger

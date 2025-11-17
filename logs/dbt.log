@@ -1,0 +1,102 @@
+[0m15:33:29.229016 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000176962A0D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017696D35A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000176973B7D90>]}
+
+
+============================== 15:33:29.236090 | 83f9f9bb-be16-42e8-a5b5-a5ef4949a481 ==============================
+[0m15:33:29.236090 [info ] [MainThread]: Running with dbt=1.11.0-b4
+[0m15:33:29.237630 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'target_path': 'None', 'no_print': 'None', 'log_format': 'default', 'cache_selected_only': 'False', 'warn_error': 'None', 'log_path': 'logs', 'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'version_check': 'True', 'use_experimental_parser': 'False', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'invocation_command': 'dbt init', 'printer_width': '80', 'write_json': 'True'}
+[0m15:33:29.283678 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\DELL\.dbt
+[0m15:33:38.976354 [debug] [MainThread]: Starter project path: C:\Users\DELL\miniconda3\envs\financial_campaign_dbt\Lib\site-packages\dbt\include\starter_project
+[0m15:33:38.998685 [info ] [MainThread]: 
+Your new dbt project "financial_campaign_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:33:39.005527 [info ] [MainThread]: Setting up your profile.
+[0m15:33:41.613218 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m15:33:41.613824 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m15:33:41.614243 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m15:34:44.172488 [info ] [MainThread]: Profile financial_campaign_dbt written to C:\Users\DELL\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:34:44.175026 [debug] [MainThread]: Command `dbt init` succeeded at 15:34:44.174782 after 75.19 seconds
+[0m15:34:44.175824 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017699398770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001769747E0F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017699311AE0>]}
+[0m15:34:44.176622 [debug] [MainThread]: Flushing usage events
+[0m15:34:46.044175 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:35:27.618772 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9F9070D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9F9B09A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9FA187D90>]}
+
+
+============================== 15:35:27.625479 | dedd6dcb-adcd-47c8-ac23-1c555b526a26 ==============================
+[0m15:35:27.625479 [info ] [MainThread]: Running with dbt=1.11.0-b4
+[0m15:35:27.626705 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'use_colors': 'True', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'printer_width': '80', 'write_json': 'True', 'warn_error': 'None', 'static_parser': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'indirect_selection': 'eager', 'version_check': 'True', 'use_experimental_parser': 'False', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'no_print': 'None', 'invocation_command': 'dbt debug', 'cache_selected_only': 'False', 'target_path': 'None'}
+[0m15:35:27.666424 [info ] [MainThread]: dbt version: 1.11.0-b4
+[0m15:35:27.668929 [info ] [MainThread]: python version: 3.13.9
+[0m15:35:27.669939 [info ] [MainThread]: python path: C:\Users\DELL\miniconda3\envs\financial_campaign_dbt\python.exe
+[0m15:35:27.670809 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m15:35:28.303870 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m15:35:28.304533 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m15:35:28.304966 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m15:35:28.406779 [info ] [MainThread]: Using profiles dir at C:\Users\DELL\.dbt
+[0m15:35:28.407804 [info ] [MainThread]: Using profiles.yml file at C:\Users\DELL\.dbt\profiles.yml
+[0m15:35:28.408704 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\DELL\financial_campaign_dbt\dbt_project.yml
+[0m15:35:28.410592 [info ] [MainThread]: adapter type: snowflake
+[0m15:35:28.411499 [info ] [MainThread]: adapter version: 1.10.3
+[0m15:35:28.412416 [info ] [MainThread]: Configuration:
+[0m15:35:28.413728 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:35:28.415076 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m15:35:28.416004 [info ] [MainThread]: Required dependencies:
+[0m15:35:28.417030 [debug] [MainThread]: Executing "git --help"
+[0m15:35:28.472273 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:35:28.473231 [debug] [MainThread]: STDERR: "b''"
+[0m15:35:28.473793 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:35:28.474757 [info ] [MainThread]: Connection:
+[0m15:35:28.475592 [info ] [MainThread]:   account: iunmmjb-zn99079
+[0m15:35:28.476394 [info ] [MainThread]:   user: sidimentus
+[0m15:35:28.477176 [info ] [MainThread]:   database: dev_raw
+[0m15:35:28.477929 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m15:35:28.478772 [info ] [MainThread]:   role: accountadmin
+[0m15:35:28.479574 [info ] [MainThread]:   schema: public
+[0m15:35:28.482442 [info ] [MainThread]:   authenticator: None
+[0m15:35:28.483768 [info ] [MainThread]:   oauth_client_id: None
+[0m15:35:28.485232 [info ] [MainThread]:   query_tag: None
+[0m15:35:28.486267 [info ] [MainThread]:   client_session_keep_alive: False
+[0m15:35:28.487444 [info ] [MainThread]:   host: None
+[0m15:35:28.488260 [info ] [MainThread]:   port: None
+[0m15:35:28.489034 [info ] [MainThread]:   proxy_host: None
+[0m15:35:28.489848 [info ] [MainThread]:   proxy_port: None
+[0m15:35:28.490635 [info ] [MainThread]:   protocol: None
+[0m15:35:28.491405 [info ] [MainThread]:   connect_retries: 1
+[0m15:35:28.492098 [info ] [MainThread]:   connect_timeout: None
+[0m15:35:28.493237 [info ] [MainThread]:   retry_on_database_errors: False
+[0m15:35:28.494182 [info ] [MainThread]:   retry_all: False
+[0m15:35:28.494897 [info ] [MainThread]:   insecure_mode: False
+[0m15:35:28.496183 [info ] [MainThread]:   reuse_connections: True
+[0m15:35:28.498381 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m15:35:28.500004 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m15:35:28.502540 [info ] [MainThread]: Registered adapter: snowflake=1.10.3
+[0m15:35:28.905565 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m15:35:29.214853 [debug] [MainThread]: Using snowflake connection "debug"
+[0m15:35:29.215377 [debug] [MainThread]: On debug: select 1 as id
+[0m15:35:29.215751 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:35:38.184248 [debug] [MainThread]: SQL status: SUCCESS 1 in 8.968 seconds
+[0m15:35:38.192182 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m15:35:38.195346 [info ] [MainThread]: [31m1 check failed:[0m
+[0m15:35:38.198514 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\DELL\financial_campaign_dbt\dbt_project.yml> not found
+
+[0m15:35:38.206177 [debug] [MainThread]: Command `dbt debug` failed at 15:35:38.205493 after 10.80 seconds
+[0m15:35:38.208405 [debug] [MainThread]: Connection 'debug' was left open.
+[0m15:35:38.210005 [debug] [MainThread]: On debug: Close
+[0m15:35:38.548903 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9FC147CE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9FC1928D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9FC0B1F20>]}
+[0m15:35:38.551871 [debug] [MainThread]: Flushing usage events
+[0m15:35:49.432324 [debug] [MainThread]: An error was encountered while trying to flush usage events

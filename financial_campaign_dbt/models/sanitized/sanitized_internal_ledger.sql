@@ -9,5 +9,4 @@ select
     current_timestamp() as sanitized_at
 from {{ ref('stg_internal_ledger') }}
 
-
--- working for internal
+-- working for uat

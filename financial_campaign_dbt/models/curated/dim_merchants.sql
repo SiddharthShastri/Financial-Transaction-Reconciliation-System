@@ -7,3 +7,4 @@ select
 from {{ ref('conformed_transactions') }}
 where merchant is not null
 group by 1
+-- working for dev

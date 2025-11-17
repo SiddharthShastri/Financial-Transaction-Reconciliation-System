@@ -10,4 +10,4 @@ select
 from {{ ref('stg_internal_ledger') }}
 
 
--- working for dev
+-- working for internal

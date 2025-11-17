@@ -3,4 +3,4 @@
 select *
 from {{ source('raw', 'bank_transactions') }}
 
--- working for dev
+-- working for internal

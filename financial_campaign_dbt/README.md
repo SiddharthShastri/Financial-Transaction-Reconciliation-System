@@ -78,6 +78,17 @@ Jinja (dbt macros)
 
 Welcome to your new dbt project!
 
+If you want to run ALL + TESTS for each target:
+
+DEV
+  * dbt build --target dev
+
+INTERNAL
+  * dbt build --target internal
+
+UAT
+  * dbt build --target uat
+
 ### Using the starter project
 
 Try running the following commands:

@@ -7,3 +7,4 @@ select
 from {{ ref('conformed_transactions') }}
 group by 1
 order by 1
+-- working for internal

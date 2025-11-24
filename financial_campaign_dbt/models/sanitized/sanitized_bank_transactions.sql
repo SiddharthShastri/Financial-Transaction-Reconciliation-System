@@ -8,5 +8,4 @@ select
     currency,
     current_timestamp() as sanitized_at
 from {{ ref('stg_bank_transactions') }}
-
-
+-- working for uat

@@ -18,3 +18,4 @@ select
         partition by merchant order by transaction_date
     ) as running_merchant_total
 from base
+-- working for uat
